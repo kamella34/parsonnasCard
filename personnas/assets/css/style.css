@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "Doris";
+    src: url(../../Dosis-Medium.ttf) format("trueType");
+}
+
+@font-face {
+    font-family:'Montserrat Alternates bold' ;
+    src: url(../../MontserratAlternates-ExtraBold.ttf) format("trueType");
+}
+body {
+    background: linear-gradient(90deg, rgba(131,58,180,0.6674019949776786) 0%, rgba(253,29,29,0.6954131994594712) 50%, rgba(252,176,69,0.7486344879748774) 100%);
+
+}
+
+h1 {
+    text-align: center;
+    padding: 3rem 0;
+    font-family:'Montserrat Alternates bold' ;
+    font-size: 5rem;
+    color: green;
+    
+}
+.origami {
+   
+    position: absolute;
+    right: 3%;
+    top: -5%;
+    margin-top: 1rem;
+}
+
+
+.personnas {
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+   
+}
+
+.sectionPersonna {
+    display: flex;
+    border: solid 8px  linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    width: 37rem;
+    height: 23rem;
+    padding-left: 3.5rem;
+    align-items: center;
+    /* margin: auto; */
+    border-radius: 5%;
+    background-color: rgba(128, 0, 0, 0.306);
+    margin: 3rem 3rem;
+    position: relative;
+   
+}
+
+
+
+
+img {
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    width: 20rem;
+    height: 23rem;
+    right: 0%;
+    top: 0%;
+    position: absolute;
+    
+    
+}
+
+
+p {
+    width: 15rem;
+    font-family: "Doris";
+    font-size: 20px;
+      
+       
+}
